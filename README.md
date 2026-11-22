@@ -74,3 +74,12 @@ These four cases match the PDF; they do not exhaust all 64 binary input combinat
 ## Validation Status
 
 The circuit file is well-formed XML. The Verilog simulation and Logisim circuit have not been run in the creation environment.
+
+
+## License and Support
+
+Copyright © 2026 Orland Louise Catala. All rights reserved for my original work, except where an existing license states otherwise. Third-party materials remain subject to their respective licenses.
+
+Please do not copy, modify, redistribute, sell, or claim my original project files as your own without my permission.
+
+I’m a student developer with limited financial resources, and these projects represent many hours of effort. Please respect and support my work. If you would like a copy of the project files, contact me at **[louise.catala24@gmail.com](mailto:louise.catala24@gmail.com)** to discuss a cheap price. Your support helps me continue studying and creating.
