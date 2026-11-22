@@ -1,3 +1,42 @@
+<div align="center">
+
+**DIGITAL LOGIC · VERILOG · LOGISIM**
+
+# Four Paths. One Output.
+
+### Scale the selection idea from two inputs to four.
+
+[Explore the project](#project-overview) · [Documentation](#project-documentation) · [Contact the developer](mailto:louise.catala24@gmail.com)
+
+</div>
+
+<p align="center">
+  <img src="docs/images/signal-selection.png" alt="Conceptual 4-to-1 multiplexer diagram highlighting I2 selected by S1 S0 equals 10" width="1000">
+</p>
+
+<p align="center"><em>Explanatory diagram derived from the Verilog selection logic; not a captured simulation.</em></p>
+
+## Project overview
+
+Two select bits choose one of four data inputs. This project pairs a Verilog implementation with a Logisim gate circuit so you can follow the selection rule from a truth table to an actual implementation file.
+
+| At a glance | What it means |
+| --- | --- |
+| **4 inputs** | I0 through I3 |
+| **2 selectors** | S1 and S0 encode the selection |
+| **4 test cases** | The supplied testbench sequence |
+
+## A small circuit with a useful idea
+
+Selection codes `00`, `01`, `10`, and `11` route `I0`, `I1`, `I2`, and `I3` respectively. The included testbench uses four fixed-data cases; it does not cover all 64 binary input combinations. The preserved validation notes below distinguish the file checks from simulations that have not been run.
+
+[Read the Verilog module](4to1mux.v) · [Open the testbench](4to1mux_tb.v) · [Explore the Logisim circuit](4to1mux.circ)
+
+## Project documentation
+
+<details>
+<summary><strong>Open the original project notes, files, and setup instructions</strong></summary>
+
 # 4-to-1 Multiplexer
 
 A 4-to-1 multiplexer implemented in Verilog and Logisim, based on the supplied lab PDF.
@@ -75,6 +114,11 @@ These four cases match the PDF; they do not exhaust all 64 binary input combinat
 
 The circuit file is well-formed XML. The Verilog simulation and Logisim circuit have not been run in the creation environment.
 
+
+
+</details>
+
+---
 
 ## License and Support
 
